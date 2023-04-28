@@ -4,6 +4,7 @@
 
 //Mine
 function isTriangle (a, b, c) {
+    // is sum of any two sides is greater than third then it can be a triangle
     if ((a + b <= c) || (a + c <= b) || (b + c <= a)) {
       return false;
     } else if ((a <= 0) || (b <= 0) || (c <= 0)) {
