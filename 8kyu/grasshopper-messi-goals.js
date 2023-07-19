@@ -15,4 +15,4 @@
 const goals = (laLigaGoals, copaDelReyGoals, championsLeagueGoals) => laLigaGoals + copaDelReyGoals + championsLeagueGoals;
 
 //Another
-const goals = (...a) => a.reduce((s, v) => s + v, 0);
+// const goals = (...a) => a.reduce((s, v) => s + v, 0);
