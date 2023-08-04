@@ -18,4 +18,4 @@ function remove(s) {
 }
 
 //Best
-const remove = s => s.replace(/!$/, '');
+const remove = s => s.replace(/!$/, ''); 
