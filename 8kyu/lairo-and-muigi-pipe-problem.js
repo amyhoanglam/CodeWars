@@ -18,4 +18,4 @@ function pipeFix(numbers){
   }
 
 //Another
-let pipeFix = nums => Array.from({ length: nums.pop() - nums[0] + 1 }, (v, i) => i + nums[0]);
+let pipeFix = nums => Array.from({ length: nums.pop() - nums[0] + 1 }, (v, i) => i + nums[0]); 
