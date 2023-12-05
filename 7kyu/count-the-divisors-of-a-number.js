@@ -10,7 +10,7 @@
 // Note you should only return a number, the count of divisors. The numbers between parentheses are shown only for you to see which numbers are counted in each case.
 
 
-//Mine
+//Mine but too slow
 function getDivisorsCnt(n){
     let output = 0; 
     for (let i = 1; i <= n; i++) {
@@ -19,4 +19,17 @@ function getDivisorsCnt(n){
       }
     }
   return output;
+}
+
+//Best
+function getDivisorsCnt(n){
+    var num = 0;
+    if (n == 1) return 1;
+    if (n % Math.sqrt(n) ==0) num++;
+    for (var i=1; i < Math.sqrt(n); i++){
+        if (n % i == 0){
+            num += 2;
+        }
+    }
+    return num;
 }
